@@ -1,0 +1,28 @@
+html{
+    box-sizing: content-box;
+}
+html *{
+    box-sizing: inherit;
+}
+header > Form > h1{
+    font-size: 20px;
+    color: black;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 1px 2px 5px rgb(0, 0, 0, 0.3);
+    padding: 15px;
+    z-index: 2;
+    position: relative;
+}
+header input{
+    outline: none;
+    border: solid 1px #eee;
+    padding: 5px 5px;
+    border-radius: 4px;
+}
+header  input:hover{
+    box-shadow: 5px 5px 0 0 rgb(0, 0, 0, 0.3);
+}
